@@ -1,0 +1,12 @@
+cn\chouchou\action\BaseAction.class
+cn\chouchou\dao\BaseMapper.class
+cn\chouchou\App.class
+cn\chouchou\config\MybatisMapperScanConfig.class
+cn\chouchou\service\imp\BaseService.class
+cn\chouchou\service\ISupplierService.class
+cn\chouchou\entity\Supplier.class
+cn\chouchou\service\imp\SupplierService.class
+cn\chouchou\config\MybatisSessionFactoryBeanConfig.class
+cn\chouchou\service\IBaseService.class
+cn\chouchou\action\SupplierAction.class
+cn\chouchou\dao\SupplierMapper.class

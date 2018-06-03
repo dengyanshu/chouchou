@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="chouchou"
+  id="myeclipse.1523581922883"
+  context-root="/chouchou"
+  j2ee-spec="6.0"
+  archive="chouchou.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

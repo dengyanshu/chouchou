@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.chouchou.dao.SysUserMapper" >
+  <resultMap id="SysUserResultMap" type="cn.chouchou.entity.SysUser" >
+    <id column="user_Id" property="userId" jdbcType="VARCHAR" />
+    <result column="user_Name" property="userName" jdbcType="VARCHAR" />
+    <result column="user_Password" property="userPassword" jdbcType="VARCHAR" />
+    <result column="user_Code" property="userCode" jdbcType="VARCHAR" />
+    <result column="role_ID" property="roleId" jdbcType="INTEGER" />
+    <result column="salt" property="salt" jdbcType="VARCHAR" />
+    <result column="user_head" property="userHead" jdbcType="VARCHAR" />
+    <result column="user_Descri" property="userDescri" jdbcType="VARCHAR" />
+    <result column="create_Date" property="createDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+  <insert id="insert" parameterType="cn.chouchou.entity.SysUser" >
+    insert into sysuser (user_Id, user_Name, user_Password, 
+      user_Code, role_ID, salt, 
+      user_head, user_Descri, create_Date
+      )
+    values (#{userId,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, #{userPassword,jdbcType=VARCHAR}, 
+      #{userCode,jdbcType=VARCHAR}, #{roleId,jdbcType=INTEGER}, #{salt,jdbcType=VARCHAR}, 
+      #{userHead,jdbcType=VARCHAR}, #{userDescri,jdbcType=VARCHAR}, #{createDate,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  
+  
+</mapper>

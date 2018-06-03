@@ -1,0 +1,12 @@
+E:\web_ws\chouchou\src\main\java\cn\chouchou\config\MybatisSessionFactoryBeanConfig.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\App.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\dao\BaseMapper.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\service\ISupplierService.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\dao\SupplierMapper.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\service\imp\SupplierService.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\service\IBaseService.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\config\MybatisMapperScanConfig.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\entity\Supplier.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\action\BaseAction.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\action\SupplierAction.java
+E:\web_ws\chouchou\src\main\java\cn\chouchou\service\imp\BaseService.java
